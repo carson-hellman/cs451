@@ -1,0 +1,75 @@
+<html>
+<head>
+	<title>
+	Rentals
+	</title>
+</head>
+
+<body bgcolor="white">
+
+	<h2>
+	Rentals
+	</h2>
+	<a href="home.html">Return home</a>
+
+	<hr>
+
+	<h3>
+	Input book rental information here.
+	</h3>
+
+	<form action="book_rented.php" method="POST">	
+		<input type="text" name="bookID" placeholder="bookID"> <br>
+		<input type="text" name="title" placeholder="title"> <br>
+		<input type="text" name="currentDate" placeholder="currentDate(YYYY-MM-DD)"> <br>
+		<input type="text" name="dueDate" placeholder="dueDate (YYY-MM-DD)"> <br>
+		<input type="text" name="customerID" placeholder="customerID"> <br>
+		<input type="text" name="cost" placeholder="cost"> <br>
+		<input type="submit" value="submit">
+		<input type="reset" value="erase">
+	</form>
+
+	<hr>
+
+	<h3>
+	Input movie rental information here.
+	</h3>
+
+	<form action="movie_rented.php" method="POST">
+		<input type="text" name="movieID" placeholder="movieID"> <br>
+		<input type="text" name="title" placeholder="title"> <br>
+		<input type="text" name="currentDate" placeholder="currentDate(YYYY-MM-DD)"> <br>
+		<input type="text" name="dueDate" placeholder="dueDate (YYYY-MM-DD)"> <br>
+		<input type="text" name="customerID" placeholder="customerID"> <br>
+		<input type="text" name="cost" placeholder="cost"> <br>
+		<input type="submit" value="submit">
+		<input type="reset" value="reset">
+	</form>
+
+	<hr>
+
+	<h3>
+	Indicate a rental has been returned here
+	</h3>
+	
+	<form action="rental_return.php" method="POST">
+		<input type="text" name="rentalID" placeholder="rentalID"> <br>
+		<label>Status: </label>
+		<select name="Status">
+			<option value=" "> </option>
+			<option value=1>on time</option>
+			<option value=0>late</option>
+		</select> <br>
+		<input type="submit" value="submit">
+		<input type="reset" value="erase">
+	</form>
+
+<hr>
+
+<p>
+<a href="source/rentals.txt" >Contents</a>
+of this page.
+
+</body>
+</html>
+

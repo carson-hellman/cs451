@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>
+	New hire
+	</title>
+</head>
+
+<body bgcolor="white">
+	<h3>
+	Input new hire information here.
+	</h3>
+
+	<a href="home.html">Return home</a>
+
+	<hr>
+
+	<form action="new_hire.php" method="POST">	
+		<input type="text" name="fname" placeholder="fname"> <br>
+		<input type="text" name="lname" placeholder="lname"> <br>
+		<label>position: </label>
+		<select name="position">
+			<option value=" "> </option>
+			<option value="cashier">cashier</option>
+			<option value="manager">manager</option>
+		</select> <br>
+		<input type="text" name="phone" placeholder="phone#"> <br>
+		<input type="text" name="wage" placeholder="wage"> <br>
+		<input type="submit" value="submit">
+		<input type="reset" value="erase">
+	</form>
+<hr>
+<h3>
+View current employees <a href="employees.php">here</a>
+</h3>
+<hr>
+
+<p>
+<a href="source/new_hire_html.txt" >Contents</a>
+of this page.
+
+</body>
+</html>
+

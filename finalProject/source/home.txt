@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>
+	Final Project
+	</title>
+</head>
+
+<body bgcolor="white">
+
+	<h3>
+	Final Project: Rental Database
+	</h3>
+
+	<hr>
+	
+
+	<a href="rentals.html">Update/View Rentals</a>
+	<br> 
+	<a href="books.html">Add/View Books</a>
+	<br> 
+	<a href="movies.html">Add/View Movies</a>
+	<br> 
+	<a href="new_hire.html">Add/View Employees</a>
+	<br> 
+	<a href="customer.html">Add Customer/Pay Fines</a>
+
+<hr>
+<img src="ER_diagram" alt="ER diagram" width="600" height="600">
+
+<hr>
+
+<p>
+<a href="source/home.txt" >Contents</a>
+of this page.
+
+</body>
+</html>
+

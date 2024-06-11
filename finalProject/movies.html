@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>
+	Movies
+	</title>
+</head>
+
+<body bgcolor="white">
+
+	<h2>
+	Movie information
+	</h2>
+	<a href="home.html">Return home</a>
+
+	<hr>
+
+	<h3>
+	Input new movie information here.
+	</h3>
+
+	<form action="new_movie.php" method="POST">	
+		<input type="text" name="title" placeholder="title"> <br>
+		<input type="text" name="director" placeholder="director"> <br>
+		<input type="text" name="genre" placeholder="genre"> <br>
+		<input type="text" name="released" placeholder="released (YYYY-MM-DD)"> <br>
+		<label>Availability: </label>
+		<select name="availability">
+			<option value=" "> </option>
+			<option value=1>available</option>
+			<option value=0>unavailable</option>
+		</select> <br>
+		<input type="submit" value="submit">
+		<input type="reset" value="erase">
+	</form>
+
+	<hr>
+
+	<h3>
+	View available movies <a href="movie_availability.php">here
+	</h3>
+	
+<hr>
+
+<p>
+<a href="source/movies.txt" >Contents</a>
+of this page.
+
+</body>
+</html>
+
